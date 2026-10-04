@@ -1,0 +1,61 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Logs
+*.log
+logs/
+
+# Local databases / temporary files
+*.db
+*.sqlite
+*.sqlite3
+tmp/
+temp/
+
+# Evaluation outputs
+evaluation/results/*
+!evaluation/results/.gitkeep
+
+# Uploaded/test documents that should not be committed
+data/
+uploads/
+
+# Infrastructure/local tooling
+docker-compose.override.yml
+
+# Secrets / keys
+*.pem
+*.key
+*.p12
+*.pfx
